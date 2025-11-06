@@ -4,7 +4,7 @@ import VideoCall from '../components/VideoCall.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: HomeView },
-  { path: '/chamada', name: 'Chamada', component: VideoCall },
+  { path: '/chamada/:id', name: 'Chamada', component: VideoCall },
 ];
 
 const router = createRouter({
